@@ -18,7 +18,8 @@ Para esta misión nos inspiramos grandemente en [Representantes Patito](represen
 
 ## En qué consiste el proyecto
 
-- Scrappers en Python
+- Un estándar de datos sobre congresos
+- Scrappers en el lenguaje de tu preferencia
 - Una API que sirva los datos
 - Un front que los consuma
 
@@ -28,7 +29,7 @@ Estamos en la etapa inicial donde se valen todos los perfiles. Queremos que este
 
 Cosas con las que puedes participar:
 
-- Escogiendo un estado de la república mexicana y construyendo un scrapper en Python<sup>(1)</sup> para consumir la data
+- Escogiendo un estado de la república mexicana y construyendo un scrapper en el lenguaje de tu preferencia<sup>(1)</sup> para consumir la data
 - Trabajando en una API
 - Diseñando la parte frontal que brinde una buena experiencia de usuario
 - Trabajando en el front-end
