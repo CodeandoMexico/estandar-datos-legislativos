@@ -88,5 +88,3 @@ Listdo de Códigos del Congreso GTO:
   * 6 Código Civil para el Estado de Guanajuato 
   * 7 Código de Procedimientos Civiles para el Estado de Guanajuato
   * 8 Código Territorial para el Estado y los Municipios de Guanajuato
-
-
