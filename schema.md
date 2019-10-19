@@ -78,3 +78,21 @@ Sección:
 Teléfono:
   * número
   * extensión
+
+Cabilderos personas morales del congreso de Guanajuato:
+  * rfc
+  * razon_social
+  * domicilio
+  * telefono
+  * correo_electronico
+  * personas_autorizadas (tratar como array)
+  * estatus_cabildero
+  * anexo_buno (tratar como text)
+  * anexo_bdos (tratar como text)
+  * no_acreditacion
+  * persona_fisica
+  * no_cabildero
+  * fecha_acreditacion
+  * organos_gobierno_comisiones
+  * diputadas_diputados
+  * diputados (arreglo con los datos de los diputados correspondientes)
