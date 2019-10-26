@@ -78,3 +78,20 @@ Sección:
 Teléfono:
   * número
   * extensión
+
+Listado de todas la Iniciativas:
+  * id
+  * fecha
+  * descripcion
+  * fondo
+  * subfondo
+  * seccion
+  * clave
+  * lugar
+  * fecha_radicacion
+  * iniciante
+  * tipo_documento
+  * asunto
+  * comisiones
+      * comision
+          * nombre
