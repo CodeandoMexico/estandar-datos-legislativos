@@ -78,3 +78,19 @@ Sección:
 Teléfono:
   * número
   * extensión
+
+Ley:
+
+  * id [ numerico ]
+  * categoria_id [ numerico ]
+  * titulo [ cadena ]
+  * descripcion [ cadena ]
+  * tipo [ numerico ]
+  * id variable [ numerico ]
+  * epub_url [ cadena ]
+  * word_url [ cadena ]
+  * pdf_url [ cadena ]
+  * publicacion_url [ cadena ]
+  * publicacion_info [ cadena ]
+  * orden [ numerico ]
+  * actualizado [ timestamp ]
