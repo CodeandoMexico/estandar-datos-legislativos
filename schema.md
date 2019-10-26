@@ -94,3 +94,18 @@ Ley:
   * publicacion_info [ cadena ]
   * orden [ numerico ]
   * actualizado [ timestamp ]
+  
+Iniciativa_a_Consulta:
+
+  * id [ numerico ]
+  * descripcion [ cadena ]
+  * fondo [ cadena ]
+  * subfondo [ cadena ]
+  * seccion [ cadena ]
+  * clave [ numerico ]
+  * lugar [ cadena ]
+  * fecha [ timestamp ]
+  * fecha_radicacion [ timestamp ]
+
+  
+  
