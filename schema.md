@@ -57,7 +57,7 @@
  * Orden
  * Estatus
 
- # Asistencias
+# Asistencias
 ` Has and belongs to many ` **[Diputados](#Actor)**
 ` Has and belongs to many ` **[Asistencias Diputados](#Asistencias-diputados)**
 ` Belongs to ` **[Comision](#Comisiones)**
@@ -67,12 +67,23 @@
   * Legislatura
   * Periodo
 
-# Asistencias diputados
+# Asistencias-diputados
 ` Belongs to ` **[Diputado](#Actor)**
 ` Belongs to ` **[Asistencia](#Asistencias)**
   * Diputado Id
   * Asistencia Id
   * Tipo de Asistencia
+
+# Dictamenes
+` Has many ` **[Iniciativas](#Iniciativas)**
+` Has many ` **[Votaciones](#Votaciones)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Titulo
+  * Fecha de presentacion
+  * Archivo
+  * Numero de publicacion (Periodico oficial)
+
+
 
 # Revision:
   * creada (fecha)
@@ -95,6 +106,8 @@
   * periodos (hash)
 
 # Votaciones:
+` Belongs to ` **[Diputado](#Actor)**
+` Belongs to ` **[Dictamen](#Dictamenes)**
   * actor (a la que pertenece)
   * total
   * a favor
@@ -104,6 +117,8 @@
   * periodos (hash)
 
 # Comisiones:
+` Has many ` **[Diputados](#Actor)**
+` Has many ` **[Asistencias](#Asistencias)**
   * cámara
   * nombre
   * oficina
@@ -127,7 +142,3 @@
   * sección
   * tipo
   * coordenadas
-
-Teléfono:
-  * número
-  * extensión
