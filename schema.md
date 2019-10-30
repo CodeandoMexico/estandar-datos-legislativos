@@ -78,3 +78,11 @@ Sección:
 Teléfono:
   * número
   * extensión
+
+# Detalle-orden
+ ` Belongs to` **[Orden](#Ordenes)**
+ ` Belongs to` **[Iniciativa](#Iniciativas)**
+   * archivo
+   * descripcion
+   * numero_romano
+   * colocacion(orden)
