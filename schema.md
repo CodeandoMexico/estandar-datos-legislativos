@@ -78,3 +78,13 @@ Sección:
 Teléfono:
   * número
   * extensión
+
+
+# Ordenes
+  ### Ordenes del día
+` Belongs to` **[Comision](#Comisiones)**
+` Belongs to` **[Legislatura](#Legislaturas)**
+  * fecha
+  * ejercicio
+  * archivo_pdf
+  * tipo_de_orden (reunion, sesión solemne, diputación permanente, junta preparatoria, sesión extraordinaria)
