@@ -1,4 +1,11 @@
-Actor:
+# Actor
+  ### (Diputado o Diputada) :
+` Belongs to` **[Partido](#Partidos)**
+` Belongs to` **[Legislatura](#Legislaturas)**
+` Has many` **[Comisiones](#Comisiones)**
+` Has and belongs to` **[Asistencias](#Asistencias)**  
+` Has and belongs to` **[Iniciativas](#Iniciativas)**
+
   * cámara (a la que pertenece) [local, federal, senado]
   * nombre
   * apellido
@@ -20,28 +27,87 @@ Actor:
   * votaciones
   * revisiones
 
-Revision:
+# Legislaturas
+` Has many ` **[Diputados](#Actor)**
+` Has many ` **[Iniciativas](#Iniciativas)**
+  * Nombre
+  * No. de Legislatura
+  * No en romano
+
+# Periodos
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Legislatura
+  * Legislatura Id
+  * Actual
+
+# Periodos
+` Belongs to ` **[Legislatura](#Legislaturas)**
+ * Legislatura
+ * Legislatura Id
+ * Actual
+
+# Partidos
+` Has many ` **[Diputados](#Actor)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+` Has and Belongs to ` **[Iniciativas](#Iniciativa)**
+ * Nombre
+ * Logo
+ * Estatus
+ * URL Web
+ * Orden
+ * Estatus
+
+# Asistencias
+` Has and belongs to many ` **[Diputados](#Actor)**
+` Has and belongs to many ` **[Asistencias Diputados](#Asistencias-diputados)**
+` Belongs to ` **[Comision](#Comisiones)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Fecha
+  * Comision
+  * Legislatura
+  * Periodo
+
+# Asistencias-diputados
+` Belongs to ` **[Diputado](#Actor)**
+` Belongs to ` **[Asistencia](#Asistencias)**
+  * Diputado Id
+  * Asistencia Id
+  * Tipo de Asistencia
+
+# Dictamenes
+` Has many ` **[Iniciativas](#Iniciativas)**
+` Has many ` **[Votaciones](#Votaciones)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Titulo
+  * Fecha de presentacion
+  * Archivo
+  * Numero de publicacion (Periodico oficial)
+
+
+
+# Revision:
   * creada (fecha)
   * aceptado (sí/no)
   * diff (hash)
 
-Puesto:
+# Puesto:
   * nombre (del puesto)
   * comisión (a la que pertenece)
 
-Link:
+# Link:
   * servicio (qué red social es)
   * url
   * actor (a la que pertenece)
 
-Inasistencia:
+# Inasistencia: (Revisar)
   * actor (a la que pertenece)
   * total
   * sesiones
   * periodos (hash)
 
-
-Votaciones:
+# Votaciones:
+` Belongs to ` **[Diputado](#Actor)**
+` Belongs to ` **[Dictamen](#Dictamenes)**
   * actor (a la que pertenece)
   * total
   * a favor
@@ -50,7 +116,9 @@ Votaciones:
   * ausente
   * periodos (hash)
 
-Comisión:
+# Comisiones:
+` Has many ` **[Diputados](#Actor)**
+` Has many ` **[Asistencias](#Asistencias)**
   * cámara
   * nombre
   * oficina
@@ -62,19 +130,15 @@ Comisión:
     * cuáles son de secretaría
     * cuáles son sólo integrantes
 
-Distrito:
+# Distrito:
   * tipo
   * entidad
   * secciones
 
-Sección:
+# Sección:
   * entidad
   * municipio
   * (id) marco geográfico nacional
   * sección
   * tipo
   * coordenadas
-
-Teléfono:
-  * número
-  * extensión
