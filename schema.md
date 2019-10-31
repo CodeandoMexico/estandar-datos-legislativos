@@ -148,6 +148,13 @@
   * número
   * extensión
 
+# Detalle-orden
+ ` Belongs to` **[Orden](#Ordenes)**
+ ` Belongs to` **[Iniciativa](#Iniciativas)**
+   * archivo
+   * descripcion
+   * numero_romano
+   * colocacion(orden)
 
 # Ordenes
   ### Ordenes del día
@@ -189,6 +196,5 @@
   * publicacion_info [ cadena ]
   * orden [ numerico ]
   * actualizado [ timestamp ]
-
 
 
