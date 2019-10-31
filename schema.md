@@ -83,8 +83,6 @@
   * Archivo
   * Numero de publicacion (Periodico oficial)
 
-
-
 # Revision:
   * creada (fecha)
   * aceptado (sí/no)
@@ -148,6 +146,19 @@
   * número
   * extensión
 
+
+# Decretos
+    ` Belongs to` **[Dictamen](#Dictamenes)**
+    ` Belongs to` **[Iniciativa](#Iniciativas)**
+    ` Belongs to` **[Legislatura](#Legislaturas)**
+    ` Has many` **[Archivos](#Archivos)**
+    * titulo
+    * archivo
+    * archivo_de_publicacion
+    * descripcion
+    * fecha_publicacion
+    * no_publicacion
+
 # Detalle-orden
  ` Belongs to` **[Orden](#Ordenes)**
  ` Belongs to` **[Iniciativa](#Iniciativas)**
@@ -196,5 +207,4 @@
   * publicacion_info [ cadena ]
   * orden [ numerico ]
   * actualizado [ timestamp ]
-
 
