@@ -196,15 +196,16 @@
 
   * id [ numerico ]
   * categoria_id [ numerico ]
+  * created_at [ datetime ]
+  * updated_at [ datetime ]
   * titulo [ cadena ]
   * descripcion [ cadena ]
   * tipo [ numerico ]
-  * id variable [ numerico ]
-  * epub_url [ cadena ]
-  * word_url [ cadena ]
-  * pdf_url [ cadena ]
-  * publicacion_url [ cadena ]
-  * publicacion_info [ cadena ]
+  * variable_id [ numerico ]
+  * epub_url [ cadena ] || epub: { url: [ cadena ] }
+  * word_url [ cadena ] || alt: word: { url: [ cadena ] }
+  * pdf_url [ cadena ] || pdf: { url: [ cadena ] }
+  * publicacion_url [ cadena ]  || publicacion: { url: [ cadena ] }
+  * publicacion_info [ cadena ]  
   * orden [ numerico ]
-  * actualizado [ timestamp ]
 
