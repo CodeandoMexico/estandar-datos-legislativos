@@ -41,28 +41,28 @@ En [schema.md](https://github.com/CodeandoMexico/representantes-patito-2/blob/ma
 - [ ] Listado de Dictamenes en Pleno:
 `GET http://www.congresogto.gob.mx/dictamenes/dictamenes_api.json`
 
-- [ ] Listado de todas la Iniciativas:
+- [ ] Listado de todas la Iniciativas (en revision):
 `GET http://www.congresogto.gob.mx/iniciativas/iniciativas_api.json`
 
-- [ ] Listado de Ordenes:
+- [ ] Listado de Ordenes (en revision):
 `GET http://www.congresogto.gob.mx/ordenes/ordenes_api.json`
 
-- [ ] Detalle de la Orden/Reunion:
+- [ ] Detalle de la Orden/Reunion (en revision):
 `GET http://www.congresogto.gob.mx/ordenes/780/orden_api.json`
 
-- [ ] Listado de Dictamenes en comisiones:
+- [ ] Listado de Dictamenes en comisiones (en revisión):
 `GET http://www.congresogto.gob.mx/dictamenes_comisiones/dictamenes_comisiones_api.json`
 
 - [ ] Listado de Decretos:
 `GET https://www.congresogto.gob.mx/decretos.json`
 
-- [ ] Listado de Comisiones de la Legislatura Actual:
+- [x] Listado de Comisiones de la Legislatura Actual:
 `GET https://www.congresogto.gob.mx/comisiones/comisiones_api.json`
 
-- [ ] Cabilderos Personas Fisicas:
+- [x] Cabilderos Personas Fisicas:
 `GET http://www.congresogto.gob.mx/cabildero_fisicas/personas_fisicas_api.json`
 
-- [ ] Cabilderos Personas Morales:
+- [x] Cabilderos Personas Morales:
 `GET http://www.congresogto.gob.mx/cabildero_morales/personas_morales_api.json`
 
 
