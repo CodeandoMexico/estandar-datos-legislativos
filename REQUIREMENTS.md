@@ -1,6 +1,6 @@
 # Requerimientos de producto
 
-En este documento pretendemos definir los requerimientos de este producto, independientemente de los alcances. Este documento explicará el por qué de este producto, sómo de debe configurar su forma ideal y de pasada esperemos que sirva como template para más proyectos de la comunidad. Siéntete libre de retroalimentar su contenido y estructura.
+En este documento pretendemos definir los requerimientos de este producto, independientemente de los alcances. Este documento explicará el por qué de este producto, cómo se debe configurar su forma ideal y de pasada esperemos que sirva como template para más proyectos de la comunidad. Siéntete libre de retroalimentar su contenido y estructura.
 
 ## Sobre este producto
 

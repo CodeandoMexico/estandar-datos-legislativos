@@ -146,6 +146,28 @@
   * número
   * extensión
 
+
+# Cabilderos:
+  * rfc
+  * razon_social
+  * domicilio
+  * telefono
+  * correo_electronico
+  * personas_autorizadas (tratar como array)
+  * estatus_cabildero
+  * anexo_buno (tratar como text)
+  * anexo_bdos (tratar como text)
+  * numero_acreditacion
+  * persona_fisica
+  * numero_cabildero
+  * fecha_acreditacion
+  * organos_gobierno_comisiones
+  * diputadas_diputados
+  * diputados (arreglo con los datos de los diputados correspondientes)
+  * comisiones
+  * nombre
+  * colonia
+
 # Decretos
     ` Belongs to` **[Dictamen](#Dictamenes)**
     ` Belongs to` **[Iniciativa](#Iniciativas)**
@@ -217,3 +239,4 @@
   * word_url [ cadena ] || word: { url: [ cadena ] }
   * publicacion_url [ cadena ] || publicacion: { url: [ cadena ] }
   * publicacion_info [ cadena ]
+
