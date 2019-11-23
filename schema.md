@@ -89,10 +89,13 @@ Cabilderos:
   * estatus_cabildero
   * anexo_buno (tratar como text)
   * anexo_bdos (tratar como text)
-  * no_acreditacion
+  * numero_acreditacion
   * persona_fisica
-  * no_cabildero
+  * numero_cabildero
   * fecha_acreditacion
   * organos_gobierno_comisiones
   * diputadas_diputados
   * diputados (arreglo con los datos de los diputados correspondientes)
+  * comisiones
+  * nombre
+  * colonia
