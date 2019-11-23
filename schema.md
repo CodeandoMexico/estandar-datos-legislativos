@@ -1,4 +1,11 @@
-Actor:
+# Actor
+  ### (Diputado o Diputada) :
+` Belongs to` **[Partido](#Partidos)**
+` Belongs to` **[Legislatura](#Legislaturas)**
+` Has many` **[Comisiones](#Comisiones)**
+` Has and belongs to` **[Asistencias](#Asistencias)**  
+` Has and belongs to` **[Iniciativas](#Iniciativas)**
+
   * cámara (a la que pertenece) [local, federal, senado]
   * nombre
   * apellido
@@ -20,28 +27,85 @@ Actor:
   * votaciones
   * revisiones
 
-Revision:
+# Legislaturas
+` Has many ` **[Diputados](#Actor)**
+` Has many ` **[Iniciativas](#Iniciativas)**
+  * Nombre
+  * No. de Legislatura
+  * No en romano
+
+# Periodos
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Legislatura
+  * Legislatura Id
+  * Actual
+
+# Periodos
+` Belongs to ` **[Legislatura](#Legislaturas)**
+ * Legislatura
+ * Legislatura Id
+ * Actual
+
+# Partidos
+` Has many ` **[Diputados](#Actor)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+` Has and Belongs to ` **[Iniciativas](#Iniciativa)**
+ * Nombre
+ * Logo
+ * Estatus
+ * URL Web
+ * Orden
+ * Estatus
+
+# Asistencias
+` Has and belongs to many ` **[Diputados](#Actor)**
+` Has and belongs to many ` **[Asistencias Diputados](#Asistencias-diputados)**
+` Belongs to ` **[Comision](#Comisiones)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Fecha
+  * Comision
+  * Legislatura
+  * Periodo
+
+# Asistencias-diputados
+` Belongs to ` **[Diputado](#Actor)**
+` Belongs to ` **[Asistencia](#Asistencias)**
+  * Diputado Id
+  * Asistencia Id
+  * Tipo de Asistencia
+
+# Dictamenes
+` Has many ` **[Iniciativas](#Iniciativas)**
+` Has many ` **[Votaciones](#Votaciones)**
+` Belongs to ` **[Legislatura](#Legislaturas)**
+  * Titulo
+  * Fecha de presentacion
+  * Archivo
+  * Numero de publicacion (Periodico oficial)
+
+# Revision:
   * creada (fecha)
   * aceptado (sí/no)
   * diff (hash)
 
-Puesto:
+# Puesto:
   * nombre (del puesto)
   * comisión (a la que pertenece)
 
-Link:
+# Link:
   * servicio (qué red social es)
   * url
   * actor (a la que pertenece)
 
-Inasistencia:
+# Inasistencia: (Revisar)
   * actor (a la que pertenece)
   * total
   * sesiones
   * periodos (hash)
 
-
-Votaciones:
+# Votaciones:
+` Belongs to ` **[Diputado](#Actor)**
+` Belongs to ` **[Dictamen](#Dictamenes)**
   * actor (a la que pertenece)
   * total
   * a favor
@@ -50,7 +114,9 @@ Votaciones:
   * ausente
   * periodos (hash)
 
-Comisión:
+# Comisiones:
+` Has many ` **[Diputados](#Actor)**
+` Has many ` **[Asistencias](#Asistencias)**
   * cámara
   * nombre
   * oficina
@@ -62,12 +128,12 @@ Comisión:
     * cuáles son de secretaría
     * cuáles son sólo integrantes
 
-Distrito:
+# Distrito:
   * tipo
   * entidad
   * secciones
 
-Sección:
+# Sección:
   * entidad
   * municipio
   * (id) marco geográfico nacional
@@ -75,11 +141,13 @@ Sección:
   * tipo
   * coordenadas
 
-Teléfono:
+
+# Teléfono:
   * número
   * extensión
 
-Cabilderos:
+
+# Cabilderos:
   * rfc
   * razon_social
   * domicilio
@@ -99,3 +167,76 @@ Cabilderos:
   * comisiones
   * nombre
   * colonia
+
+# Decretos
+    ` Belongs to` **[Dictamen](#Dictamenes)**
+    ` Belongs to` **[Iniciativa](#Iniciativas)**
+    ` Belongs to` **[Legislatura](#Legislaturas)**
+    ` Has many` **[Archivos](#Archivos)**
+    * titulo
+    * archivo
+    * archivo_de_publicacion
+    * descripcion
+    * fecha_publicacion
+    * no_publicacion
+
+# Detalle-orden
+ ` Belongs to` **[Orden](#Ordenes)**
+ ` Belongs to` **[Iniciativa](#Iniciativas)**
+   * archivo
+   * descripcion
+   * numero_romano
+   * colocacion(orden)
+
+# Ordenes
+  ### Ordenes del día
+` Belongs to` **[Comision](#Comisiones)**
+` Belongs to` **[Legislatura](#Legislaturas)**
+  * fecha
+  * ejercicio
+  * archivo_pdf
+  * tipo_de_orden (reunion, sesión solemne, diputación permanente, junta preparatoria, sesión extraordinaria)
+
+# Listado de todas la Iniciativas:
+  * id
+  * fecha
+  * descripcion
+  * fondo
+  * subfondo
+  * seccion
+  * clave
+  * lugar
+  * fecha_radicacion
+  * iniciante
+  * tipo_documento
+  * asunto
+  * comisiones
+      * comision
+          * nombre
+# Ley:
+
+  * id [ numerico ]
+  * categoria_id [ numerico ]
+  * created_at [ datetime ]
+  * updated_at [ datetime ]
+  * titulo [ cadena ]
+  * descripcion [ cadena ]
+  * tipo [ numerico ]
+  * variable_id [ numerico ]
+  * epub_url [ cadena ] || epub: { url: [ cadena ] }
+  * word_url [ cadena ] || alt: word: { url: [ cadena ] }
+  * pdf_url [ cadena ] || pdf: { url: [ cadena ] }
+  * publicacion_url [ cadena ]  || publicacion: { url: [ cadena ] }
+  * publicacion_info [ cadena ]  
+  * orden [ numerico ]
+
+# Código
+
+  * id [ numerico ]
+  * titulo [ cadena ]
+  * descripcion [ cadena ]
+  * pdf_url [ cadena ] || pdf: { url: [ cadena ] }
+  * word_url [ cadena ] || word: { url: [ cadena ] }
+  * publicacion_url [ cadena ] || publicacion: { url: [ cadena ] }
+  * publicacion_info [ cadena ]
+
