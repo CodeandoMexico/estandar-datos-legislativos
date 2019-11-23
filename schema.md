@@ -79,7 +79,7 @@ Teléfono:
   * número
   * extensión
 
-Cabilderos personas morales del congreso de Guanajuato:
+Cabilderos:
   * rfc
   * razon_social
   * domicilio
