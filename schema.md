@@ -146,7 +146,6 @@
   * número
   * extensión
 
-
 # Decretos
     ` Belongs to` **[Dictamen](#Dictamenes)**
     ` Belongs to` **[Iniciativa](#Iniciativas)**
@@ -209,3 +208,12 @@
   * publicacion_info [ cadena ]  
   * orden [ numerico ]
 
+# Código
+
+  * id [ numerico ]
+  * titulo [ cadena ]
+  * descripcion [ cadena ]
+  * pdf_url [ cadena ] || pdf: { url: [ cadena ] }
+  * word_url [ cadena ] || word: { url: [ cadena ] }
+  * publicacion_url [ cadena ] || publicacion: { url: [ cadena ] }
+  * publicacion_info [ cadena ]
