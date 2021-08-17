@@ -5,7 +5,7 @@
 [![website](https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg)](http://www.codeandomexico.org/)
 [![slack](https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg)](http://slack.codeandomexico.org/)
 
-# representantes-patito-2 (nombre por decidir)
+# Estándar de Datos Abiertos Legislativos
 
 Hola vaquero/a. 🤠 En este proyecto buscamos una forma sencilla para los ciudadanos de saber quién los representa en los congresos locales y federales.
 
