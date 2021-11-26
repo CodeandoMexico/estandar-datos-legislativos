@@ -18,7 +18,7 @@ Legislativo
 - Diputados
 - Distritos
 - Iniciativas
-- Legislaturas
+- Legislaturas (histórico)
 - Listado de leyes
 - Ordenes
 - Partidos
@@ -26,7 +26,7 @@ Legislativo
 - Puestos
 - Revisiones
 - Secciones
-- Teléfonos
+- Directorio del congreso (diputados, areas administrativas, etc)
 - Votaciones
 
 Administrativo
@@ -43,13 +43,10 @@ Administrativo
 - Presupuesto
 - Proveedores
 
-## Calidad de los datos
+## Formato de los datos
 
-- ¿Cómo están los datos?
-- ¿Está en formatos abiertos?
-- ¿Está en tablas html?
-- ¿Está en ficheros pdf?
-- ¿Son imágenes escaneadas?
+En cada uno de los apartados anteriores, especificar el formato en el que se
+encuentran los datos: CSV, EXCEL, HTML (en la propia web), PDF, IMÁGEN, etc.
 
 ## Notas generales
 
