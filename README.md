@@ -7,6 +7,15 @@
 
 # Estándar de de Datos Abiertos Legislativos
 
+- [Estándar de de Datos Abiertos Legislativos](#estándar-de-de-datos-abiertos-legislativos)
+  - [¿En qué consiste el proyecto?](#en-qué-consiste-el-proyecto)
+  - [¿Por qué un estándar?](#por-qué-un-estándar)
+  - [¿Cómo colaborar?](#cómo-colaborar)
+  - [Agradecimientos](#agradecimientos)
+    - [Antecedentes](#antecedentes)
+      - [Sociedad civil](#sociedad-civil)
+      - [Congresos](#congresos)
+
 El tema de los datos abiertos no es algo nuevo.
 
 Desde 2015 México tiene una Ley General de Transparencia y Acceso a la

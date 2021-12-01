@@ -1,9 +1,13 @@
 # Bienvenido a la guía de contribución del Estándar de Datos Legislativos
 
+  - [Objetivo](#objetivo)
+  - [Comunicación](#comunicación)
+  - [¿En qué puedes apoyar?](#en-qué-puedes-apoyar)
+  - [¿Cómo vamos a trabajar?](#cómo-vamos-a-trabajar)
+
 Gracias por tu interés en colaborar en el proyecto. Todas las contribuciones son
 bienvenidas, pero para que tu contribución sume al proyecto te recomendamos leas
 estas recomendaciones y lo que esperamos de tu colaboración.
-
 ## Objetivo
 
 Desde Codeando México, nuestro objetivo siempre es trabajar de la manera más
