@@ -1,6 +1,6 @@
-<p align="center">
-<img src="http://codeandomexico.org/resources/img/codeandomexico.png" width="500" title="logo_codeando 1 -500">
-</p>
+![Logo Codeando México](/resources/images/logo-cmx.svg#gh-light-mode-only)
+![Logo Codeando México](/resources/images/logo-cmx-blanco.svg#gh-dark-mode-only)
+
 
 [![website](https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg)](http://www.codeandomexico.org/)
 [![slack](https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg)](http://slack.codeandomexico.org/)
@@ -58,20 +58,31 @@ congresos, lo que puede ayudar a los congresos a:
 
 ## ¿Cómo colaborar?
 
-Queremos trabajar de la manera más transparente posible y abrir el proyecto a
-quiene estén interesados en participar.
+Si quieres saber como puedes colaborar, revisa la guía de participación.
 
-Si quieres saber más sobre como puedes hacerlo, revisa la guía de participación.
-
-Puedes enterarte de los avances del proyecto en este repositorio y comunicarte
-con nosotros via Slack en el
+Puedes seguir los avances del proyecto en este repositorio y seguir la
+conversación via Slack en el
 [canal del proyecto](https://codeandomexico.slack.com/app_redirect?channel=CLSRKEBQW).
 Para inscribirte al Slack de Codeando México ve a este
 [enlace](http://slack.codeandomexico.org/).
 
-## Antecedentes
+## Agradecimientos
 
-### Sociedad civil
+Este proyecto no sería posible sin los aportes de:
+
+- [Ali González](https://github.com/basicavisual)
+- [Alma Rangel](https://github.com/almarngl) 
+- [Carlos Castro](https://github.com/carlitos)
+- [César Rodríguez](https://github.com/MrCesar107)
+- [Jorge Hernández](https://github.com/lesthack)
+- [Ricardo Mirón](https://github.com/ricardomiron)
+- [Rodolfo Ferro](https://github.com/RodolfoFerro)
+
+
+### Antecedentes
+
+Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos. 
+#### Sociedad civil
 
 Desde la sociedad civil han surgido algunas iniciativas para facilitar el acceso
 a la información legislativa:
@@ -84,7 +95,7 @@ Sin embargo, estos esfuerzos dependen principalmente de la posibilidad de
 obtener datos (scrapping) directamente de las páginas web de los congresos, y
 son propensos a fallos en el momento en que actualizan estás páginas.
 
-### Congresos
+#### Congresos
 
 A la fecha, el congreso de Jalisco es el único que dispone de una Ley de Datos
 Abiertos Legislativos. En 2021, a través de un proceso de co-creación junto a
