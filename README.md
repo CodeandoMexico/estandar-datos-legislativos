@@ -1,52 +1,116 @@
-<p align="center">
-<img src="http://codeandomexico.org/resources/img/codeandomexico.png" width="500" title="logo_codeando 1 -500">
-</p>
+![Logo Codeando México](/resources/images/logo-cmx.svg#gh-light-mode-only)
+![Logo Codeando México](/resources/images/logo-cmx-blanco.svg#gh-dark-mode-only)
+
 
 [![website](https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg)](http://www.codeandomexico.org/)
 [![slack](https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg)](http://slack.codeandomexico.org/)
 
-# Estándar de Datos Abiertos Legislativos
+# Estándar de de Datos Abiertos Legislativos
 
-Hola vaquero/a. 🤠 En este proyecto buscamos una forma sencilla para los ciudadanos de saber quién los representa en los congresos locales y federales.
+- [Estándar de de Datos Abiertos Legislativos](#estándar-de-de-datos-abiertos-legislativos)
+  - [¿En qué consiste el proyecto?](#en-qué-consiste-el-proyecto)
+  - [¿Por qué un estándar?](#por-qué-un-estándar)
+  - [¿Cómo colaborar?](#cómo-colaborar)
+  - [Agradecimientos](#agradecimientos)
+    - [Antecedentes](#antecedentes)
+      - [Sociedad civil](#sociedad-civil)
+      - [Congresos](#congresos)
 
-Actualmente si entras a la página de tu congreso local, o del [congreso federal](https://www.congreso.gob.mx) no hay una forma fácil para que una persona identifique quién es su representante. Es necesario saber de geografía electoral para sacar tu distrito local, federal y circunscripción para identificar qué persona te está representando y navegar por portales con una pobre experiencia de usuario (UX). Con este proyecto pretendemos tres cosas:
+El tema de los datos abiertos no es algo nuevo.
 
-1. Darle una herramienta sencilla para que todo ciudadano pueda identificar mediante su ubicación quién lo representa y qué está haciendo, así como sus datos de contacto.
-2. Mostrarle a los congresos locales y federales que sí se puede lograr una buena experiencia ciudadana a través del diseño de sus herramientas.
-3. Proponer un estándar de datos para registrar la actividad legislativa de los congresos locales y federal en una forma unificada.
+Desde 2015 México tiene una Ley General de Transparencia y Acceso a la
+Información Pública, y tanto el gobierno federal como los gobiernos estatales
+han realizado muchos avances en esta materia.
 
-Para esta misión nos inspiramos grandemente en [Representantes Patito](http://representantes.pati.to/) de [UnRob](https://github.com/unrob) (repo en [GitHub](https://github.com/unRob/representantes.pati.to)). Pero hay otras herramientas que usamos de referencia.
+Sin embargo, estos avances han sido principalmente del poder ejecutivo, y hay
+muchas carencias cuando se trata de datos abiertos legislativos.
 
-## En qué consiste el proyecto
+En la actualidad, si quieres consultar información de tu congreso local o del
+congreso federal, esta se encuentra en las páginas web de los congresos, pero en
+su mayoría está dispersa en múltiples páginas web y documentos pdf, no en
+formatos de datos abiertos. Esto dificulta su consulta o descarga masiva, lo que
+implica que los ciudadanos no puede saber fácilmente sobre la actividad
+legislativa y por lo tanto repercute negativamente en la participación ciudadana
+y la rendición de cuentas.
 
-- Un estándar de datos sobre congresos
-- Una API que sirva los datos y en el que se pueda escribir
-- Scrappers en el lenguaje de tu preferencia que lean el congreso de tu preferencia para alimentar el API
-- Un front que los consuma
+En parte esto se debe, en general, a la falta de una cultura de apertura y
+transparencia y a que no se han establecido marcos que regulen esta actividad
+dentro de los congresos, pero también a la falta de recursos humanos y
+materiales para implementar una posible política de datos abiertos legislativos.
 
-## Cómo contribuir
+## ¿En qué consiste el proyecto?
 
-Estamos en la etapa inicial donde se valen todos los perfiles. Queremos que este proyecto sea abierto, asíncrono, remoto y comunitario así que todos son bienvenidos. Siéntete libre de escoger alguna de las siguientes acciones y comunicarte con nosotros via Slack [en el canal del proyecto](https://codeandomexico.slack.com/app_redirect?channel=CLSRKEBQW). Para inscribirte al Slack de Codeando México ve a [este link](http://slack.codeandomexico.org).
+Este proyecto, que es una iniciativa de Borde Político, Open Data Charter y
+Codeando México, en colaboración con el congreso federal y los congresos
+estatales de Jalisco y Guanajuato, tiene como objetivo crear de manera
+colaborativa un estándar de datos y herramientas digitales que reduzcan el costo
+de adopción de tecnología y procesos y así promover la apertura de datos en los
+congresos y mejorar la participación ciudadana.
 
-Cosas con las que puedes participar:
+## ¿Por qué un estándar?
 
-- Decidiendo un buen nombre
-- Haciendo un Logo
-- Trabajando en una API
-- Diseñando la parte frontal que brinde una buena experiencia de usuario
-- Ayudándonos con Project Management
-- Recomendando tecnologías para utilizar
-- Haciendo recomendaciones sobre cómo identificar y desplegar la información relevante (abogados, politólogos, internacionalistas bienvenidos)
+Un estándar no es más que un conjunto de acuerdos documentados sobre
+representación, formato, definición, estructuración, etiquetado, transmisión,
+manipulación, uso y gestión de datos.
 
-Ayuda que necesitaremos en el futuro:
+La actividad legislativa, aunque varía ligeramente entre congresos, es
+susceptible de ser modelada de manera uniforme, y compartir este modelo entre
+congresos, lo que puede ayudar a los congresos a:
 
-- Escogiendo un estado de la república mexicana y construyendo un scrapper en el lenguaje de tu preferencia<sup>(1)</sup> para consumir la data 
-- Trabajando en el front-end
-- Ayudándonos a montar pipelines para la automatización de los scrappers
-- Dockerizando
+- Reducir costos de investigación, desarrollo y mantenimiento de software.
+- Crear herramientas y compartirlas con otros congresos, o al revés, usar
+  herramientas que ya hayan desarrollado en otros congresos.
+- Facilitar el gobierno de datos y la apertura a través de APIs estandarizadas,
+  simplificando el acceso a los ciudadanos.
+- Permitir que los ciudadanos analizar de datos desarrollar herramientas
+  reutilizables independientemente de los congresos.
 
-- ¿Se te ocurre alguna otra? escríbenos.
+## ¿Cómo colaborar?
 
-<sup>(1)</sup> Hemos identificado que, además de el diputado y sus datos de contacto, debemos integrar información sobre asistencias, votos, comisiones a las que pertenece y propuestas que ha presentado. Esta es data que habrá que consumir también.
+Si quieres saber como puedes colaborar, revisa la guía de participación.
 
-Happy hacking!
+Puedes seguir los avances del proyecto en este repositorio y seguir la
+conversación via Slack en el
+[canal del proyecto](https://codeandomexico.slack.com/app_redirect?channel=CLSRKEBQW).
+Para inscribirte al Slack de Codeando México ve a este
+[enlace](http://slack.codeandomexico.org/).
+
+## Agradecimientos
+
+Este proyecto no sería posible sin los aportes de:
+
+- [Ali González](https://github.com/basicavisual)
+- [Alma Rangel](https://github.com/almarngl) 
+- [Carlos Castro](https://github.com/carlitos)
+- [César Rodríguez](https://github.com/MrCesar107)
+- [Jorge Hernández](https://github.com/lesthack)
+- [Ricardo Mirón](https://github.com/ricardomiron)
+- [Rodolfo Ferro](https://github.com/RodolfoFerro)
+
+
+### Antecedentes
+
+Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos. 
+#### Sociedad civil
+
+Desde la sociedad civil han surgido algunas iniciativas para facilitar el acceso
+a la información legislativa:
+
+- [Representantes Patito](http://representantes.pati.to/) (Inactivo)
+- [¿Quién me representa?](http://www.quienmerepresenta.com/) (Activo)
+- Buscar más
+
+Sin embargo, estos esfuerzos dependen principalmente de la posibilidad de
+obtener datos (scrapping) directamente de las páginas web de los congresos, y
+son propensos a fallos en el momento en que actualizan estás páginas.
+
+#### Congresos
+
+A la fecha, el congreso de Jalisco es el único que dispone de una Ley de Datos
+Abiertos Legislativos. En 2021, a través de un proceso de co-creación junto a
+organizaciones de la sociedad civil, adoptó la Carta Internacional de los Datos
+Abiertos, y como parte del Segundo Plan de Acción Local de Gobierno Abierto de
+Jalisco, lanzó un micrositio que permite conocer, consultar y opinar respecto de
+las iniciativas de Ley y de Decreto de las Comisiones Legislativas; suscribirte
+a las Comisiones; visualizar las sesiones completas sin cortes del Pleno, saber
+quiénes son nuestros diputados, entre otros.
