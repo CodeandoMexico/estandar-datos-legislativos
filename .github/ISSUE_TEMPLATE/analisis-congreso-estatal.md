@@ -1,13 +1,13 @@
 ---
-name: Análisis de congreso estatal
+name: Análisis de congreso
 about: Mapeo de donde está la información de los congresos
-title: 'Análisis del congreso estatal de {ESTADO}'
+title: 'Análisis del congreso de {ESTADO}'
 labels: research
 assignees: ''
 
 ---
 
-# Análisis del congreso estatal de {NOMBRE DEL ESTADO}
+# Análisis del congreso de {NOMBRE DEL ESTADO}
 
 Si quieres analizar un congreso estatal, esta es la información que necesitamos
 de cada uno.
