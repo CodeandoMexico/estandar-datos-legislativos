@@ -1,7 +1,7 @@
 ---
-name: Análisis del congreso estatal de Aguascalientes
+name: Análisis de congreso estatal
 about: Mapeo de donde está la información de los congresos
-title: 'Análisis de congreso'
+title: 'Análisis del congreso estatal de {ESTADO}'
 labels: research
 assignees: ''
 
