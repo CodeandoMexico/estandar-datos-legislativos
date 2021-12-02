@@ -1,3 +1,12 @@
+---
+name: Análisis del congreso estatal de Aguascalientes
+about: Mapeo de donde está la información de los congresos
+title: 'Análisis de congreso'
+labels: research
+assignees: ''
+
+---
+
 # Análisis del congreso estatal de {NOMBRE DEL ESTADO}
 
 Si quieres analizar un congreso estatal, esta es la información que necesitamos
