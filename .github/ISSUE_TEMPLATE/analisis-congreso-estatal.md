@@ -2,8 +2,7 @@
 name: Análisis de congreso
 about: Mapeo de donde está la información de los congresos
 title: 'Análisis del congreso de {ESTADO}'
-labels: research
-assignees: ''
+labels: documentation
 
 ---
 
