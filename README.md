@@ -1,7 +1,6 @@
 ![Logo Codeando México](/resources/images/logo-cmx.svg#gh-light-mode-only)
 ![Logo Codeando México](/resources/images/logo-cmx-blanco.svg#gh-dark-mode-only)
 
-
 [![website](https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg)](http://www.codeandomexico.org/)
 [![slack](https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg)](http://slack.codeandomexico.org/)
 
@@ -29,7 +28,7 @@ En la actualidad, si quieres consultar información de tu congreso local o del
 congreso federal, esta se encuentra en las páginas web de los congresos, pero en
 su mayoría está dispersa en múltiples páginas web y documentos pdf, no en
 formatos de datos abiertos. Esto dificulta su consulta o descarga masiva, lo que
-implica que los ciudadanos no puede saber fácilmente sobre la actividad
+implica que los ciudadanos no pueden informarse fácilmente sobre la actividad
 legislativa y por lo tanto repercute negativamente en la participación ciudadana
 y la rendición de cuentas.
 
@@ -62,12 +61,12 @@ congresos, lo que puede ayudar a los congresos a:
   herramientas que ya hayan desarrollado en otros congresos.
 - Facilitar el gobierno de datos y la apertura a través de APIs estandarizadas,
   simplificando el acceso a los ciudadanos.
-- Permitir que los ciudadanos analizar de datos desarrollar herramientas
-  reutilizables independientemente de los congresos.
+- Permitir a los ciudadanos analizar datos y desarrollar herramientas
+  independientemente de los congresos.
 
 ## ¿Cómo colaborar?
 
-Si quieres saber como puedes colaborar, revisa la guía de participación.
+Si quieres saber como puedes colaborar, revisa la [guía de participación](/CONTRIBUTING.md).
 
 Puedes seguir los avances del proyecto en este repositorio y seguir la
 conversación via Slack en el
@@ -80,17 +79,17 @@ Para inscribirte al Slack de Codeando México ve a este
 Este proyecto no sería posible sin los aportes de:
 
 - [Ali González](https://github.com/basicavisual)
-- [Alma Rangel](https://github.com/almarngl) 
+- [Alma Rangel](https://github.com/almarngl)
 - [Carlos Castro](https://github.com/carlitos)
 - [César Rodríguez](https://github.com/MrCesar107)
 - [Jorge Hernández](https://github.com/lesthack)
 - [Ricardo Mirón](https://github.com/ricardomiron)
 - [Rodolfo Ferro](https://github.com/RodolfoFerro)
 
-
 ### Antecedentes
 
-Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos. 
+Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos.
+
 #### Sociedad civil
 
 Desde la sociedad civil han surgido algunas iniciativas para facilitar el acceso
@@ -98,7 +97,7 @@ a la información legislativa:
 
 - [Representantes Patito](http://representantes.pati.to/) (Inactivo)
 - [¿Quién me representa?](http://www.quienmerepresenta.com/) (Activo)
-- Buscar más
+- (Buscar más ejemplos)
 
 Sin embargo, estos esfuerzos dependen principalmente de la posibilidad de
 obtener datos (scrapping) directamente de las páginas web de los congresos, y
