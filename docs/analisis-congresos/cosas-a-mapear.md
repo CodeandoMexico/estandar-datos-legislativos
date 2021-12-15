@@ -1,0 +1,31 @@
+
+- Actas de sesiones de pleno
+- Actas de sesiones de comisiones
+- Acuerdos
+- Agenda legislativa
+- Asistencia (pleno, sesiones comisiones)
+- Cabilderos (lobbyists)
+- Comisiones
+- Decretos
+- Dictámenes
+- Diputados
+- Diputación permanente
+- Directorio
+- Distritos electorales
+- Documento (en las sesiones puede haber más de uno)
+- Informes
+- Iniciativas
+- Coordinadores de partidos (fracciones parlamentarias)
+- Legislaturas
+- Leyes, Códigos, Reglamentos
+- Mesa directiva
+- Partidos
+- Periodos
+- Puestos (pleno, comisiones)
+- Reuniones de congresistas con cabilderos (esto creo que no lo tiene nadie)
+- Sección electoral (dentro de un distrito)
+- Sesiones (Pleno, Comisiones)
+- Orden del día sesión del pleno
+- Orden del día sesión de la comisión
+- Unidades del congreso (p.ej. contraloría)
+- Votaciones en las sesiones (pleno, comisiones)
