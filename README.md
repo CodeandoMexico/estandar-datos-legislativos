@@ -5,16 +5,15 @@
 </p>
 <!-- __ -->
 
-# Estándar de de Datos Abiertos Legislativos
+# Estándar de Datos Abiertos Legislativos
 
-- [Estándar de de Datos Abiertos Legislativos](#estándar-de-de-datos-abiertos-legislativos)
-  - [¿En qué consiste el proyecto?](#en-qué-consiste-el-proyecto)
-  - [¿Por qué un estándar?](#por-qué-un-estándar)
-  - [¿Cómo colaborar?](#cómo-colaborar)
-  - [Agradecimientos](#agradecimientos)
-    - [Antecedentes](#antecedentes)
-      - [Sociedad civil](#sociedad-civil)
-      - [Congresos](#congresos)
+- [¿En qué consiste el proyecto?](#en-qué-consiste-el-proyecto)
+- [¿Por qué un estándar?](#por-qué-un-estándar)
+- [¿Cómo colaborar?](#cómo-colaborar)
+- [Antecedentes](#antecedentes)
+    - [Sociedad civil](#sociedad-civil)
+    - [Congresos](#congresos)
+- [Agradecimientos](#agradecimientos)
 
 El tema de los datos abiertos no es algo nuevo.
 
@@ -40,18 +39,19 @@ materiales para implementar una posible política de datos abiertos legislativos
 
 ## ¿En qué consiste el proyecto?
 
-Este proyecto, que es una iniciativa de Borde Político, Open Data Charter y
-Codeando México, en colaboración con el congreso federal y los congresos
-estatales de Jalisco y Guanajuato, tiene como objetivo crear de manera
+Este proyecto es una iniciativa de [Codeando México](https://www.codeandomexico.org/), en colaboración con
+[Borde Político](https://borde.mx/) y el apoyo del congreso federal y los congresos
+estatales de Jalisco y Guanajuato. Tiene como objetivo crear de manera
 colaborativa un estándar de datos y herramientas digitales que reduzcan el costo
 de adopción de tecnología y procesos y así promover la apertura de datos en los
 congresos y mejorar la participación ciudadana.
 
 ## ¿Por qué un estándar?
 
-Un estándar no es más que un conjunto de acuerdos documentados sobre
-representación, formato, definición, estructuración, etiquetado, transmisión,
-manipulación, uso y gestión de datos.
+Los estándares abiertos son acuerdos documentados y reutilizables que facilitan que las personas 
+y las organizaciones publiquen, accedan, compartan y utilicen datos de mejor calidad. Son puestos 
+a disposición del público en general y se desarrollan (o aprueban) y se mantienen a través de un 
+proceso colaborativo y basado en el consenso.
 
 La actividad legislativa, aunque varía ligeramente entre congresos, es
 susceptible de ser modelada de manera uniforme, y compartir este modelo entre
@@ -75,6 +75,34 @@ conversación via Slack en el
 Para inscribirte al Slack de Codeando México ve a este
 [enlace](http://slack.codeandomexico.org/).
 
+## Antecedentes
+
+Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos.
+
+### Sociedad civil
+
+Desde la sociedad civil han surgido algunas iniciativas para facilitar el acceso
+a la información legislativa:
+
+- [Representantes Patito](http://representantes.pati.to/) (Inactivo)
+- [¿Quién me representa?](http://www.quienmerepresenta.com/) (Activo)
+- [API Electoral](https://www.apielectoral.mx/)
+
+Sin embargo, estos esfuerzos dependen principalmente de la posibilidad de
+obtener datos (scrapping) directamente de las páginas web de los congresos, y
+son propensos a fallos en el momento en que actualizan estás páginas.
+
+### Congresos
+
+A la fecha, el congreso de Jalisco es el único que dispone de una Ley de Datos
+Abiertos Legislativos. En 2021, a través de un proceso de co-creación junto a
+organizaciones de la sociedad civil, adoptó la Carta Internacional de los Datos
+Abiertos, y como parte del Segundo Plan de Acción Local de Gobierno Abierto de
+Jalisco, lanzó un micrositio que permite conocer, consultar y opinar respecto de
+las iniciativas de Ley y de Decreto de las Comisiones Legislativas; suscribirte
+a las Comisiones; visualizar las sesiones completas sin cortes del Pleno, saber
+quiénes son nuestros diputados, entre otros.
+
 ## Agradecimientos
 
 Este proyecto no sería posible sin los aportes de:
@@ -85,32 +113,5 @@ Este proyecto no sería posible sin los aportes de:
 - [César Rodríguez](https://github.com/MrCesar107)
 - [Jorge Hernández](https://github.com/lesthack)
 - [Ricardo Mirón](https://github.com/ricardomiron)
+- [Ricardo Sangines](https://github.com/rickrebel)
 - [Rodolfo Ferro](https://github.com/RodolfoFerro)
-
-### Antecedentes
-
-Este proyecto es el último en una lista de proyectos que durante los años han intentado hacer más accesible la información de nuestros congresos.
-
-#### Sociedad civil
-
-Desde la sociedad civil han surgido algunas iniciativas para facilitar el acceso
-a la información legislativa:
-
-- [Representantes Patito](http://representantes.pati.to/) (Inactivo)
-- [¿Quién me representa?](http://www.quienmerepresenta.com/) (Activo)
-- (Buscar más ejemplos)
-
-Sin embargo, estos esfuerzos dependen principalmente de la posibilidad de
-obtener datos (scrapping) directamente de las páginas web de los congresos, y
-son propensos a fallos en el momento en que actualizan estás páginas.
-
-#### Congresos
-
-A la fecha, el congreso de Jalisco es el único que dispone de una Ley de Datos
-Abiertos Legislativos. En 2021, a través de un proceso de co-creación junto a
-organizaciones de la sociedad civil, adoptó la Carta Internacional de los Datos
-Abiertos, y como parte del Segundo Plan de Acción Local de Gobierno Abierto de
-Jalisco, lanzó un micrositio que permite conocer, consultar y opinar respecto de
-las iniciativas de Ley y de Decreto de las Comisiones Legislativas; suscribirte
-a las Comisiones; visualizar las sesiones completas sin cortes del Pleno, saber
-quiénes son nuestros diputados, entre otros.
