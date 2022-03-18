@@ -1,8 +1,6 @@
 
 # Ruta de proyecto
 
-## Siguientes pasos
-
 | Actividad              | Tipo                    | Descripción                                                                                                                                                                                        | Inicio    | Fin       | Sprint   | Depende de             |
 |------------------------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|----------|------------------------|
 | Directorio             | Investigación           | Crear un directorio con los contactos o posibles contactos de TI/ parlamento abierto/ transparencia, etc. que puedan sumarse a la iniciativa y brindar retroalimentación.                          | 14/3/2022 | 25/3/2022 | Sprint 1 |                        |
