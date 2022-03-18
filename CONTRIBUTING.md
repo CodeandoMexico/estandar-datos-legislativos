@@ -1,10 +1,9 @@
 # Bienvenido a la guía de contribución del Estándar de Datos Legislativos
 
-- [Bienvenido a la guía de contribución del Estándar de Datos Legislativos](#bienvenido-a-la-guía-de-contribución-del-estándar-de-datos-legislativos)
-  - [Objetivo](#objetivo)
-  - [Comunicación](#comunicación)
-  - [¿En qué puedes apoyar?](#en-qué-puedes-apoyar)
-  - [¿Cómo vamos a trabajar?](#cómo-vamos-a-trabajar)
+- [Objetivo](#objetivo)
+- [Comunicación](#comunicación)
+- [¿En qué puedes apoyar?](#en-qué-puedes-apoyar)
+- [¿Cómo vamos a trabajar?](#cómo-vamos-a-trabajar)
 
 Gracias por tu interés en colaborar en el proyecto. Todas las contribuciones son
 bienvenidas, pero para que tu contribución sume al proyecto te recomendamos leas
@@ -27,7 +26,7 @@ en el [Slack de Codeando México](http://slack.codeandomexico.org/).
 
 Las tareas van a ir cambiando dependiendo de la fase en la que se
 encuentre el proyecto. Puedes revisar algunos de los hitos del proyecto en el
-documento con la [ruta de trabajo](ROADMAP.md).
+documento con la [ruta de trabajo](ROADMAP.md) y su progreso en [este tablero](https://github.com/orgs/CodeandoMexico/projects/3/views/2).
 
 ## ¿Cómo vamos a trabajar?
 
