@@ -1,0 +1,88 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "diputados_congreso_union",
+      "path": "http://sitl.diputados.gob.mx/LXIV_leg/listado_diputados_gpnp.php?tipot=TOTAL",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "id",
+            "description": "identificado único"
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "format": "default",
+            "title": "nombre",
+            "description": "nombre completo de la persona"
+          },
+          {
+            "name": "entidad",
+            "type": "string",
+            "format": "default",
+            "title": "entidad",
+            "description": "estado al que representa"
+          },
+          {
+            "name": "distrito",
+            "type": "string",
+            "format": "default",
+            "title": "distrito",
+            "description": "distrito o circunscripción\n"
+          },
+          {
+            "name": "partido",
+            "type": "string",
+            "format": "default",
+            "title": "partido",
+            "description": "partido al que pertenece"
+          },
+          {
+            "name": "correo_electronico",
+            "type": "string",
+            "format": "email",
+            "title": "correo_electronico",
+            "description": "correo oficial"
+          },
+          {
+            "name": "telefono",
+            "type": "string",
+            "format": "default",
+            "title": "telefono",
+            "description": "número de teléfono oficial"
+          }
+        ]
+      },
+      "title": "Diputados",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "datos legislativos",
+    "diputados"
+  ],
+  "name": "datos_legislativos",
+  "title": "Estándar de datos legislativos",
+  "description": "Estándar de datos abiertos legislativos",
+  "homepage": "http://sitl.diputados.gob.mx/LXIV_leg/listado_diputados_gpnp.php?tipot=TOTAL",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Codeando México",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
