@@ -1,4 +1,6 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]](LICENSE)
+<a href="https://github.com/CodeandoMexico/estandar-datos-legislativos/tree/v0.1" target="_blank"><img src="https://img.shields.io/github/v/tag/CodeandoMexico/estandar-datos-legislativos?label=version"></a>
+
 
 <a href="https://open-stand.org"><img alt="OpenStand Group Logo" height="64px" width="64px" src="https://open-stand.org/wp-content/uploads/2012/08/128x128-green1.png"> </a><br />
 
@@ -70,6 +72,9 @@ conversación via Slack en el
 [canal del proyecto](https://codeandomexico.slack.com/app_redirect?channel=CLSRKEBQW).
 Para inscribirte al Slack de Codeando México ve a este
 [enlace](http://slack.codeandomexico.org/).
+
+<a href="http://www.codeandomexico.org/" target="_blank"><img src="https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg"></a>
+<a href="http://slack.codeandomexico.org/" target="_blank"><img src="https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg"></a>
 
 ## Antecedentes
 
