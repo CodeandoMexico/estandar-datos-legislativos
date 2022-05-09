@@ -1,9 +1,6 @@
-<p align="center">
-<img src="http://codeandomexico.org/resources/img/codeandomexico.png" width="500" alt="Codeando México"><br>
-<a href="http://www.codeandomexico.org/" target="_blank"><img src="https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg"></a>
-<a href="http://slack.codeandomexico.org/" target="_blank"><img src="https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg"></a>
-</p>
-<!-- __ -->
+[![CC BY-SA 4.0][cc-by-sa-shield]](LICENSE)
+
+<a href="https://open-stand.org"><img alt="OpenStand Group Logo" height="64px" width="64px" src="https://open-stand.org/wp-content/uploads/2012/08/128x128-green1.png"> </a><br />
 
 # Estándar de Datos Abiertos Legislativos
 
@@ -43,8 +40,7 @@ Este proyecto es una iniciativa de [Codeando México](https://www.codeandomexico
 [Borde Político](https://borde.mx/) y el apoyo del congreso federal y los congresos
 estatales de Jalisco y Guanajuato. Tiene como objetivo crear de manera
 colaborativa un estándar de datos y herramientas digitales que reduzcan el costo
-de adopción de tecnología y procesos y así promover la apertura de datos en los
-congresos y mejorar la participación ciudadana.
+de adopción de tecnología y procesos y así promover la apertura de datos en el poder legislativo y mejorar la participación ciudadana.
 
 ## ¿Por qué un estándar?
 
@@ -115,3 +111,26 @@ Este proyecto no sería posible sin los aportes de:
 - [Ricardo Mirón](https://github.com/ricardomiron)
 - [Ricardo Sangines](https://github.com/rickrebel)
 - [Rodolfo Ferro](https://github.com/RodolfoFerro)
+
+## Licencia
+
+Este repositorio es principalmente contenido y está autorizado bajo una licencia [Creative Commons Attribution ShareAlike 4.0 International License](LICENSE).
+
+[![CC BY-SA 4.0][cc-by-sa-image]](LICENSE)
+
+> Este es un resumen legible por humanos de (y no un sustituto) de la licencia.
+> 
+> Eres libre de:
+> * **Compartir** — copiar y redistribuir el material en cualquier medio o formato.
+> * **Adaptar** — remezclar, transformar y desarrollar el material para cualquier propósito, incluso comercial.
+> 
+> El licenciante no puede revocar estas libertades mientras siga los términos de la licencia.
+> 
+> * **Atribución** — debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o su uso.
+> * **ShareAlike** — si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia que el original.
+>
+> Sin restricciones adicionales — no puede aplicar términos legales o medidas tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que permita la licencia.
+
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg
