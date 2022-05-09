@@ -18,7 +18,6 @@ Apoyo a la adopción del estándar una vez publicada la primera versión estable
 Apoyo a la adopción del estándar una vez publicada la primera versión estable.
 `En proceso`
 
-- Sinónimos: TO DO...
 - Sitio: https://www.congresojal.gob.mx/
 
 ## Congreso del Estado de Nuevo León
