@@ -1,80 +1,160 @@
-"schema": {
-    "fields": [
-      {
-        "name": "id_legislador",
-        "title": "Identificador del legislador",
-        "description": "Identificador único de la persona legisladora",
-        "example": "550e8400-e29b-41d4-a716-446655440000",
-        "type": "string",
-        "format": "uuid",
-        "constraints": {
-            "required": "true",
-            "unique":"true"
-        }
-      },
-      {
-        "name": "nombres",
-        "title": "Nombres",
-        "description": "Nombre o nombres de la persona legisladora",
-        "example": "Juan Antonio",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-            "required": "true"
-        }
-      },
-      {
-        "name": "apellidos",
-        "title": "Apellidos",
-        "description": "Apellidos de la persona legisladora",
-        "example": "Pérez Trejo",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-            "required": "true"
-        }
-      },
-      {
-        "name": "sexo",
-        "title": "Sexo",
-        "description": "Sexo de la persona legisladora",
-        "example": "hombre",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-            "required": "true"
-        }
-      },
-      {
-        "name": "partido",
-        "title": "Partido político",
-        "description": "Afiliación a un partido político de la persona legisladora",
-        "example": "Movimiento Ciudadano",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-            "required": "true",
-            "enum": {"PRI", "PAN", "PRD", "MC", "MORENA", "PV", "PES"}
-        }
-      },
-      {
-        "name": "telefono",
-        "title": "Teléfono",
-        "description": "Número telefónico de la oficina de la persona legisladora",
-        "example": "(473)102-0000",
-        "type": "string",
-        "format": "default",
-        "constraints": {
-            "required": "true",
-            "pattern": "[0-9]{3}-[0-9]{2}-[0-9]{4}"
-        }
-      },
-      {
-        "name": "telefono",
-        "type": "string",
-        "format": "default",
-        "title": "telefono",
-        "description": "número de teléfono oficial"
+{
+  "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+  "title": "Legislador",
+  "description": "Se refiere a quien hace, establece o da las leyes para la ordenación de la sociedad.",
+  "type": "object",
+  "fields": [
+    {
+      "name": "id_legislador",
+      "title": "Identificador del legislador",
+      "description": "Identificador único de la persona legisladora",
+      "example": "550e8400-e29b-41d4-a716-446655440000",
+      "type": "string",
+      "format": "uuid",
+      "constraints": {
+          "required": true,
+          "unique": true
       }
-    ]
-  }
+    },
+    {
+      "name": "nombres",
+      "title": "Nombres",
+      "description": "Nombre o nombres de la persona legisladora",
+      "example": "Juan Antonio",
+      "type": "string",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "apellidos",
+      "title": "Apellidos",
+      "description": "Apellidos de la persona legisladora",
+      "example": "Pérez Trejo",
+      "type": "string",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "fecha_nacimiento",
+      "title": "Fecha de nacimiento",
+      "description": "Fecha de nacimiento de la persona legisladora",
+      "example": "1981-05-17",
+      "type": "date",
+      "format": "YYYY-MM-DD",
+      "constraints": {
+          "required": true
+      }
+     },
+    {
+      "name": "sexo",
+       "title": "Sexo",
+      "description": "Sexo de la persona legisladora",
+      "example": "hombre",
+      "type": "string",
+      "constraints": {
+          "required": true
+       }
+    },
+    {
+      "name": "partido",
+      "title": "Partido político",
+      "description": "Afiliación a un partido político de la persona legisladora",
+      "example": "Partido patito",
+      "type": "string",
+      "constraints": {
+          "required": true,
+          "enum": ["PRI", "PAN", "PRD", "MC", "MORENA", "PVEM", "PES", "PT", "NA", "RSP", "Futuro", "FxM", "Independiente"]
+      }
+     },
+    {
+      "name": "telefono",
+      "title": "Teléfono",
+      "description": "Número telefónico de la oficina de la persona legisladora",
+      "example": "{\n \"asiento\": {\n \"numero\": \"(473)102-0000\", \"extension\": \"Ext. 108\"}\n }\n",
+      "type": "object",
+      "constraints": {
+          "required": true,
+          "pattern": "([0-9]{3})[0-9]{3}-[0-9]{4}"
+      }
+    },
+    {
+      "name": "correo_electronico",
+      "title": "Correo electrónico",
+      "description": "Correo electrónico oficial/ institucional de la persona legisladora",
+      "example": "juanperez@congreso.gob.mx",
+      "type": "string",
+      "format": "email",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "foto_perfil",
+      "title": "Foto de perfil",
+      "description": "URL de la foto de perfil de la persona legisladora",
+      "example": "https://congreso.s3.amazonaws.com/uploads/diputado/imagen/136/diputado_1.jpg",
+      "type": "string",
+      "format": "uri",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "oficina_gestion",
+      "title": "Oficina de gestión",
+      "description": "Ubicación de la oficina de gestión de la persona legisldora",
+      "example": "Plaza Pasero Morelos, Local 42. Blvd José María Morelos 807, Los Murales.  C.P 37219, León, Gto.",
+      "type": "string"
+    },
+    {
+      "name": "estudios",
+      "title": "Estudios",
+      "description": "Estudios oficiales concluidos de la persona legisladora",
+      "example": "{\n \"institucion_educativa\": \"Universidad de Veracruz\", \"grado_obtenido\": \"Licenciatura en Derecho\", \"anio_de_graduacion\": \"1999\" \n}",
+      "type": "object"
+    },
+    {
+      "name": "trayectoria",
+      "title": "Trayectoria",
+      "description": "Trayectoria de la persona legisladora",
+      "example": "{\n \"item_1\": {\n \"organizacion\": \"Congreso de la Unión\",\"puesto\": \"Diputado\",\"inicio\": \"1999\",\"fin\": \"2001\" \n} \n}",
+      "type": "object"
+    },
+    {
+      "name": "curriculum",
+      "title": "Currículum Vitae",
+      "description": "URL al CV de la persona legisladora",
+      "example": "https://congreso.s3.amazonaws.com/uploads/diputado/cv/136/diputado_1.pdf",
+      "type": "string",
+      "format": "uri"
+    },
+    {
+      "name": "redes_sociales",
+      "title": "Redes sociales",
+      "description": "Enlaces a las redes sociales de la persona legiladora",
+      "example": "[\n {\n \"facebook\": \"https://www.facebook.com/PersonaLegisladora\", \"twitter\": \"https://www.twitter.com/PersonaLegisladora\" \n} \n]",
+      "type": "array"
+    },
+    {
+      "name": "asientos",
+      "title": "Asientos ocupados",
+      "description": "Lista de asientos ocupados por la persona legisladora",
+      "example": "[1, 2, 5]",
+      "type": "array"
+    }
+  ],
+
+  "missingValues": ["NaN", "-"],
+  "primaryKey": "id_legislador",
+  "foreignKeys": [
+    {
+      "fields": "asientos",
+      "reference": {
+        "resource": "asiento",
+        "fields": "id_asiento"
+      }
+    }
+  ]
+}
