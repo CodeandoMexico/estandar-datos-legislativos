@@ -1,0 +1,99 @@
+{
+    "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
+    "title": "Partido político",
+    "description": "Entidades de interés público con personalidad jurídica y patrimonio propios, con registro legal ante el Instituto Nacional Electoral o ante los Organismos Públicos Locales",
+    "type": "object",
+    "fields": [
+      {
+        "name": "id_partido",
+        "title": "Identificador del partido",
+        "description": "Identificador único del partido político",
+        "example": "1",
+        "type": "integer",
+        "constraints": {
+            "required": true,
+            "unique": true
+        }
+      },
+      {
+        "name": "nombre",
+        "title": "Nombre",
+        "description": "Nombre completo del partido político",
+        "example": "Partido Patito",
+        "type": "string",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+        "name": "abreviacion",
+        "title": "Abreviación",
+        "description": "Acrónimo o abreviación del partido político",
+        "example": "PP",
+        "type": "string",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+        "name": "tipo",
+        "title": "Tipo",
+        "description": "Define si el partido político es nacional o local",
+        "example": "Local",
+        "type": "string",
+        "constraints": {
+            "required": true,
+            "enum": ["Local", "Nacional"]
+        }
+      },
+      {
+        "name": "estatus",
+        "title": "Estatus",
+        "description": "Define si el partido está activo o no",
+        "example": "true",
+        "type": "boolean",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+        "name": "logo",
+        "title": "Logo",
+        "description": "URL de la imagen oficial del partido político",
+        "example": "https://congreso.s3.amazonaws.com/uploads/diputado/imagen/136/partido_1.jpg",
+        "type": "string",
+        "format": "uri",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+        "name": "sitio_web",
+        "title": "Sitio web",
+        "description": "Enlace al sitio web oficial del partido político",
+        "example": "https://partidopatito.com",
+        "type": "string",
+        "format": "uri",
+        "constraints": {
+            "required": true
+        }
+      },
+      {
+        "name": "colores",
+        "title": "Colores",
+        "description": "Colores oficiales del partido político",
+        "example": "[\"Amarillo\", \"Blanco\", \"Verde\"]",
+        "type": "array"
+      },
+      {
+        "name": "redes_sociales",
+        "title": "Redes sociales",
+        "description": "Enlaces a las redes sociales del partido político",
+        "example": "[\n {\n \"facebook\": \"https://www.facebook.com/PartidoPP\", \"twitter\": \"https://www.twitter.com/PartidoPP\" \n} \n]",
+        "type": "array"
+      }
+    ],
+
+    "missingValues": ["NaN", "-"],
+    "primaryKey": "id_partido"
+  }
